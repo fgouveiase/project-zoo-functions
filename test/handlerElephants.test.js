@@ -18,7 +18,7 @@ describe('Testes da função HandlerElephants', () => {
   });
 
   it('Verifica se retorna frase de erro se o argumento nao for string', () => {
-    expect(handlerElephants(5)).toBe('Parâmetro inválido, é necessário uma string'); 
+    expect(handlerElephants(5)).toBe('Parâmetro inválido, é necessário uma string');
   });
 
   it('Verifica se retorna NW se o argumento for location', () => {
